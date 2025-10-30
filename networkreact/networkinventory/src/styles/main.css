@@ -1,0 +1,73 @@
+:root {
+  --light-blue: #e8f1ff;
+  --light-green: #e9f9ee;
+  --light-yellow: #fff7e6;
+  --light-red: #ffeaea;
+}
+
+/* General layout spacing */
+body {
+  background-color: #f9fafc;
+}
+
+.container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Dashboard cards */
+.dashboard-card {
+  border-radius: 16px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  min-height: 160px;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+}
+
+.dashboard-icon {
+  font-size: 2.5rem;
+}
+
+/* Table upgrades */
+.table {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.table thead {
+  background: linear-gradient(135deg, #007bff, #6610f2);
+  color: white;
+}
+
+.table td,
+.table th {
+  padding: 1rem;
+  vertical-align: middle;
+}
+
+/* Form page spacing */
+.asset-form-card {
+  padding: 2.5rem !important;
+}
+
+.form-control,
+.form-select {
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+}
+
+.btn {
+  padding: 0.6rem 1.2rem;
+  border-radius: 10px;
+}
+
+footer {
+  padding: 1rem;
+  margin-top: 3rem;
+  border-top: 1px solid #dee2e6;
+  background: #212529;
+  color: #f8f9fa;
+}
